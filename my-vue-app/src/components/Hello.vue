@@ -1,13 +1,22 @@
 <template>
   <div class="hero">
     <div>
-      <h1 class="display-3">Hello World</h1>
-      <p class="lead">DO YOU SEE THIS HELLO WORLD? MIND BLOWN</p>
+      <h1 class="display-3 title">Hello World</h1>
+      <i><p class="lead">DO YOU SEE THIS HELLO WORLD? MIND BLOWN</p></i>
     </div>
   </div>
 </template>
 
 <style>
+  body {
+    background-image: linear-gradient(to right, rgb(65, 184, 181) , rgb(53, 73, 94));
+    color: white;
+  }
+
+  .title {
+    text-shadow: 2px 2px 35px;
+  }
+
   .hero {
     height: 90vh;
     display: flex;
